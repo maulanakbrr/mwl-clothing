@@ -12,7 +12,7 @@ const Slideshow = () => {
     <Carousel >
       {
         slideData.map((item, index) => (
-          <Carousel.Item key={index} style={{ backgroundColor: 'grey', height: '60vh' }}>
+          <Carousel.Item key={index} style={{ backgroundColor: 'grey', height: 'calc(60vh)' }} interval={5000}>
             <CarouselImage style={{ backgroundImage: `url(${item.imageUrl})`}}/>
             <Carousel.Caption>
               <h3>{item.title}</h3>

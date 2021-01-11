@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import CustomButton from '../custom-button/custom-button.component';
 
 export const HomeItemContainer = styled.div`
   height: 320px;
@@ -6,12 +7,11 @@ export const HomeItemContainer = styled.div`
   border: 1px solid #ededed;
   margin: 10px 0px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
   &:hover{
     .button{
       display: block;
-      opacity: .7;
-
     }
   }
 
@@ -44,6 +44,19 @@ export const ItemDescription = styled.div`
 
 export const ItemDetail = styled.p`
   margin-bottom: 0px;
+`;
+
+export const ViewButton = styled(CustomButton)`
+  display: none;
+  position: absolute;
+  top: 220px;
+  left: 32%;
+  width: 30%;
+  opacity: .5;
+
+  &:hover{
+    opacity: .9;
+  }
 `;
 
 

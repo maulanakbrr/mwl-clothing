@@ -2,6 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import Slideshow from '../../components/slideshow/slideshow.component';
 import HomeItem from '../../components/home-item/home-item.component';
+import CustomButton from '../../components/custom-button/custom-button.component';
 
 import {
   HomeContainer, HomeTitle, HomeItemContainer
@@ -15,8 +16,8 @@ const Homepage = () => {
       <Container>
         <HomeTitle className='text-center'>{'mwl-clothing'.toUpperCase()}</HomeTitle>
         
-        <Row>
-          <Col xs={12}>
+        <Row className='mt-3'>
+          <Col xs={12} className='mb-3'>
             <h4 className='text-center'>FEATURED ITEMS</h4>
           </Col>
           <HomeItemContainer md={3} sm={6} xs={12}>
@@ -31,10 +32,14 @@ const Homepage = () => {
           <HomeItemContainer md={3} sm={6} xs={12}>
             <HomeItem/>
           </HomeItemContainer>
+          <Col xs={12} className='mb-3 text-center mt-3'>
+            <CustomButton>Shop More</CustomButton>
+          </Col>
         </Row>
-
-        <Row>
-          <Col xs={12}>
+        <br/>
+        <br/>
+        <Row className='mt-3'>
+          <Col xs={12} className='mb-3'>
             <h4 className='text-center'>NEWEST ITEM</h4>
           </Col>
           <HomeItemContainer md={3} sm={6} xs={12}>
@@ -49,6 +54,9 @@ const Homepage = () => {
           <HomeItemContainer md={3} sm={6} xs={12}>
             <HomeItem/>
           </HomeItemContainer>
+          <Col xs={12} className='mb-3 text-center mt-3'>
+            <CustomButton>Shop More</CustomButton>
+          </Col>
         </Row>
 
       </Container>

@@ -1,7 +1,6 @@
-import CustomButton from '../custom-button/custom-button.component';
 
 import {
-  HomeItemContainer, Image, ItemDescription, ItemDetail
+  HomeItemContainer, Image, ItemDescription, ItemDetail, ViewButton
 } from './home-item.styles';
 
 const HomeItem = () => {
@@ -16,7 +15,7 @@ const HomeItem = () => {
         <ItemDetail>Rp. 19x.xxx</ItemDetail>
       </ItemDescription>
 
-      <CustomButton isHomeButton className='button'>view</CustomButton>      
+      <ViewButton className='button'>view</ViewButton>
     </HomeItemContainer>
   );
 };

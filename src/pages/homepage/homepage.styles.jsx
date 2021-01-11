@@ -11,11 +11,6 @@ export const HomeTitle = styled.h1`
   margin-bottom: 1.5rem;
 `;
 
-export const HomeCategory = styled.div`
-  
-`;
-
 export const HomeItemContainer = styled(Col)`
-  background-color: #e9f2e4;
-
+  
 `;
