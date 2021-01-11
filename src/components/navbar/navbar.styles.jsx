@@ -15,7 +15,7 @@ export const RightMenu = styled.div`
 
 export const NavMenu = styled(Nav)`
   @media screen and (max-width: 575px){
-    display: none;
+    display: none !important;
   }
 `;
 
@@ -37,7 +37,7 @@ export const getIconStyles = props => props.isMenu ? menuIconStyles : iconStyles
 export const Icon = styled.div`
   color: white; 
   font-size: 1rem;
-  padding: .5rem 1rem;
+  padding: .25rem 1rem;
   
   ${getIconStyles}
 `;
