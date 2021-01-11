@@ -1,6 +1,8 @@
 import { Switch, Route } from 'react-router-dom';
 
 import NavBar from './components/navbar/navbar.component';
+import Footer from './components/footer/footer.component';
+
 import Homepage from './pages/homepage/homepage.component';
 import ContactPage from './pages/contact/contact.component';
 import ProductPage from './pages/product/product.component';
@@ -22,6 +24,7 @@ function App() {
           <Route path='/sign-in-sign-up' exact component={SignInSignUpPage}/>
         </Switch>
       </div>
+      <Footer/>
     </div>
   );
 }

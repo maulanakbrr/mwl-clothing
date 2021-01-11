@@ -6,7 +6,7 @@ import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
 import { 
-  BrandLink, RightMenu, NavMenu, Icon, BarIcon 
+  NavbarContainer, BrandLink, RightMenu, NavMenu, Icon, BarIcon 
 } from './navbar.styles';
 
 const NavBar = () => {
@@ -15,7 +15,7 @@ const NavBar = () => {
   const toggleHidden = () => setHidden(!hidden);
   
   return(
-    <Navbar fixed="top" className='justify-content-between bg-dark'>
+    <NavbarContainer fixed="top" className='justify-content-between'>
       <Navbar.Brand >
         <BrandLink to='/' className='text-white'>
           {'mwl'.toUpperCase()}
@@ -50,7 +50,7 @@ const NavBar = () => {
         { hidden ? null : <CartDropdown/> }
       </RightMenu>
       
-    </Navbar>
+    </NavbarContainer>
   );
 };
 

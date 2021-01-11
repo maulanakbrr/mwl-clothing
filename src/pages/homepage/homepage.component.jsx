@@ -20,16 +20,16 @@ const Homepage = () => {
           <Col xs={12} className='mb-3'>
             <h4 className='text-center'>FEATURED ITEMS</h4>
           </Col>
-          <HomeItemContainer md={3} sm={6} xs={12}>
+          <HomeItemContainer md={3} sm={6} xs={12} className='mb-3'>
             <HomeItem/>
           </HomeItemContainer>
-          <HomeItemContainer md={3} sm={6} xs={12}>
+          <HomeItemContainer md={3} sm={6} xs={12} className='mb-3'>
             <HomeItem/>
           </HomeItemContainer>
-          <HomeItemContainer md={3} sm={6} xs={12}>
+          <HomeItemContainer md={3} sm={6} xs={12} className='mb-3'>
             <HomeItem/>
           </HomeItemContainer>
-          <HomeItemContainer md={3} sm={6} xs={12}>
+          <HomeItemContainer md={3} sm={6} xs={12} className='mb-3'>
             <HomeItem/>
           </HomeItemContainer>
           <Col xs={12} className='mb-3 text-center mt-3'>
@@ -37,21 +37,20 @@ const Homepage = () => {
           </Col>
         </Row>
         <br/>
-        <br/>
         <Row className='mt-3'>
           <Col xs={12} className='mb-3'>
             <h4 className='text-center'>NEWEST ITEM</h4>
           </Col>
-          <HomeItemContainer md={3} sm={6} xs={12}>
+          <HomeItemContainer md={3} sm={6} xs={12} className='mb-3'>
             <HomeItem/>
           </HomeItemContainer>
-          <HomeItemContainer md={3} sm={6} xs={12}>
+          <HomeItemContainer md={3} sm={6} xs={12} className='mb-3'>
             <HomeItem/>
           </HomeItemContainer>
-          <HomeItemContainer md={3} sm={6} xs={12}>
+          <HomeItemContainer md={3} sm={6} xs={12} className='mb-3'>
             <HomeItem/>
           </HomeItemContainer>
-          <HomeItemContainer md={3} sm={6} xs={12}>
+          <HomeItemContainer md={3} sm={6} xs={12} className='mb-3'>
             <HomeItem/>
           </HomeItemContainer>
           <Col xs={12} className='mb-3 text-center mt-3'>

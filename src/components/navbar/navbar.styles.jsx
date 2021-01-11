@@ -1,7 +1,11 @@
 import styled, { css } from 'styled-components';
-import { Nav } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
+
+export const NavbarContainer = styled(Navbar)`
+  background-color: #000;
+`
 
 export const BrandLink = styled(Link)`
   &:hover{
