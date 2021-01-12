@@ -8,10 +8,10 @@ const SocmedInfo = () => {
       <h3 className='text-center'>Connect with Us!</h3>
       <p className='text-center'>You can visit our instagram and shopee</p>
       <ButtonContainer className='text-center'>
-        <SocmedLink href="sss">
+        <SocmedLink isInstagram href="sss">
           Instagram
         </SocmedLink>
-        <SocmedLink href="sss">
+        <SocmedLink isShopee href="sss">
           Shopee
         </SocmedLink>
       </ButtonContainer>

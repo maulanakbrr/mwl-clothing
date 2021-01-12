@@ -57,6 +57,8 @@ export const shopeeStyles = css`
   }
 `;
 
+export const contacFormStyles = css``;
+
 export const getButtonStyles = props => {
   if (props.isInstagram){
     return instagramStyles;

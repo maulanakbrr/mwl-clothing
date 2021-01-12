@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 
@@ -17,7 +17,8 @@ export const RightMenu = styled.div`
   display: flex;
 `;
 
-export const NavMenu = styled(Nav)`
+export const NavMenu = styled.div`
+  display: flex;
   @media screen and (max-width: 575px){
     display: none !important;
   }

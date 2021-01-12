@@ -4,12 +4,14 @@ import CustomButton from '../custom-button/custom-button.component';
 export const HomeItemContainer = styled.div`
   height: 320px;
   width: 100%;
-  border: 1px solid #ededed;
   margin: 10px 0px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+  transition: box-shadow .3s;
 
   &:hover{
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, .5);
+    
     .button{
       display: block;
     }
